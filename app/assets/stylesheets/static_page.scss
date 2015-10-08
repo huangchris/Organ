@@ -1,3 +1,34 @@
 // Place all the styles related to the StaticPage controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.organ {
+  position: relative;
+  width: 800px;
+  margin: 50px auto;
+}
+
+.key {
+  display: block;
+  float: left;
+  border: 1px solid black;
+  width: 50px;
+  height: 200px;
+}
+
+.pressed {
+  background-color: lightgrey;
+}
+.pressed.sharp {
+  background-color: grey;
+}
+
+.sharp {
+  margin-left: -15px;
+  margin-right: -15px;
+  color: white;
+  background-color: black;
+  width: 30px;
+  height: 150px;
+  top: -50px;
+}
